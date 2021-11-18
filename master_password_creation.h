@@ -29,6 +29,13 @@ private:
     int score;
     Fenetre *login;
 
+
+    /*Nom a changer*/
+    bool okRegMaj;
+    bool okRegMin;
+    bool okRegNum;
+    bool okRegSym;
+
 };
 
 #endif // MASTER_PASSWORD_CREATION_H
