@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/fonts">
+        <file>NotoSerif-Bold.ttf</file>
+    </qresource>
+</RCC>
