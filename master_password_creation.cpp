@@ -109,7 +109,7 @@ void Master_Password_Creation::password_score()
     if(password.contains(reg_spe) && okRegSym != false)
     {
         score +=1;
-        okRegNum = false;
+        okRegSym = false;
     }
 
     switch(score)
