@@ -14,6 +14,7 @@ class Gestionnaire_Password : public QMainWindow
 public:
     explicit Gestionnaire_Password(QWidget *parent = nullptr);
     ~Gestionnaire_Password();
+    void InsertIntoTableWidgetRow(QString, QString);
 
 private:
     Ui::Gestionnaire_Password *ui;

@@ -76,15 +76,14 @@ void Master_Password_Creation::password_score()
 
     //Méthode à modifié dans le futur
 
-
+    //Gérer la suppresion de caractère et donc de score
 
     QString password = ui->edit_pswd->text();
- /* A faire fonctionner */
+
     QRegExp reg_maj("[A-Z]");
     QRegExp reg_min("[a-z]");
     QRegExp reg_chiffre("[0-9]");
     QRegExp reg_spe("[#?!@$%^&*-]");
-
 
 
     if(password.size() == 8)
